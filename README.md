@@ -11,7 +11,7 @@ Free software: MIT license
 ## Installation
 
 ```
-pip install git+https://github.com/helbling-technik-gmbh/pytest-rmsis
+pip install pytest-rmsis
 ```
 
 ## Konfiguration

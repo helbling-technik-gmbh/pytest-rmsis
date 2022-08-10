@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 from setuptools import setup
 from pytest_rmsis import __prog__, __version__, __author__, __email__, __description__, __keywords__, __license__, __url__
-
 setup(
     name=__prog__,
     version=__version__,
     author=__author__,
     author_email=__email__,
     description=__description__,
+    long_description=open('README.md').read(),
+    long_description_content_type="text/markdown",
     license=__license__,
     url=__url__,
     keywords=__keywords__,
